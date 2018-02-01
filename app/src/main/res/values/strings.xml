@@ -266,4 +266,9 @@
     <string name="hole_demo">绘制空心多边形功能</string>
     <string name="hole_decription">介绍如何绘制空心多边形</string>
 
+
+    <string name="my_test">自定义测试</string>
+    <string name="my_demo">途径点测试</string>
+    <string name="my_desc">如何在导航中设置途径点</string>
+
 </resources>

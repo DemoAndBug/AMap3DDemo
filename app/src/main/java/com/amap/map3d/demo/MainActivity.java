@@ -43,6 +43,8 @@ import com.amap.map3d.demo.location.CustomLocationActivity;
 import com.amap.map3d.demo.location.CustomLocationModeActivity;
 import com.amap.map3d.demo.location.LocationModeSourceActivity;
 import com.amap.map3d.demo.location.LocationModeSourceActivity_Old;
+import com.amap.map3d.demo.my.MyDriveRouteActivity;
+import com.amap.map3d.demo.my.MyPoiAroundSearchActivity;
 import com.amap.map3d.demo.offlinemap.OfflineMapActivity_Old;
 import com.amap.map3d.demo.opengl.OpenglActivity;
 import com.amap.map3d.demo.overlay.ArcActivity;
@@ -120,6 +122,11 @@ public final class MainActivity extends ListActivity {
 	}
 
 	private static final DemoDetails[] demos = {
+
+			new DemoDetails(R.string.my_test, R.string.blank, null),
+			new DemoDetails(R.string.my_demo, R.string.my_desc, MyPoiAroundSearchActivity.class),
+			new DemoDetails(R.string.my_demo, R.string.my_desc, MyDriveRouteActivity.class),
+
 //		            创建地图
 			new DemoDetails(R.string.map_create, R.string.blank, null),
 //			显示地图
